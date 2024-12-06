@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+        :root {
+            --min-font-size: 20px;
+            --max-font-size: 40px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: clamp(var(--min-font-size), 5vw, var(--max-font-size));
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quia sunt tenetur voluptatibus consequatur voluptas nam quidem doloremque magni nisi! Quidem labore id aperiam incidunt ipsam necessitatibus voluptatum odio voluptatem.</h1>
+</body>
+</html>
